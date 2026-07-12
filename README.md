@@ -22,30 +22,24 @@ Built as a fast, dependency-free static site — no build step, no framework. Ju
 
 ## Design system
 
-Photo-led, deep-navy direction:
+Built from the brand design guide (charcoal-dominant, single gold accent):
 
-- **Colours:** deep navy `#0d1830` / `#0a1425` grounds, card navy `#122142`/`#16294a`,
-  lemon gold `#f7d31e` as the single accent, cool blue-grey text `#a8b3c7` on navy,
-  blue-tinted light ground `#f4f6f9`, live green `#37c46d` for the "available now" pulse.
-- **Type:** Manrope (600–800) for headings and UI, Inter for body (Google Fonts, with
-  system fallbacks). Two-tone headlines: white/navy first line, gold second line.
-- **Logo:** bolt monogram in `assets/logo.svg` + uppercase BRIGHT**LIGHT** wordmark
-  (LIGHT in gold). Also the favicon (`assets/favicon.svg`).
-- **Imagery:** cinematic duotone SVG scenes (electrician at a glowing panel, DB board
-  close-up, solar array at dusk, night call-out, tools, COC certificate) sit in every
-  photo slot. They're deliberate art direction *and* drop-in replaceable: swap any
-  scene block for a real `<img>` of the business's neat wiring, solar installs and
-  branded PPE when photos are available.
-
-## Signature layout patterns
-
-- Full-bleed dark heroes with layered navy overlays and big two-tone headlines
-- Yellow-ringed "Call us 24/7" phone cluster in the header and heroes
-- 4-up navy feature tiles with gold line icons
-- Layered about block: main scene + inset scene + floating gold badge (24/7 / 4.6★)
-- Project cards with navy gradient overlays and gold titles
-- Animated hero stat counters, scroll reveals, pulsing availability dot —
-  all respecting `prefers-reduced-motion`
+- **Colours:** charcoal `#1F2329` / ink `#15141B` grounds, electrical gold `#F5B327`
+  as the only accent (CTAs, highlighted headline word, stats, active states),
+  warm white `#FAFAFB`, light grey `#EBEBEB` borders, steel grey `#70757D` secondary
+  text, safety orange `#FF8C2B` reserved for the 24/7 emergency context only.
+- **Type:** Manrope 600/700/800 for display (uppercase headlines, eyebrows, buttons),
+  Inter 400/500/600 for body. Fluid clamp-based scale; one gold word per headline.
+- **Logo:** three-bulb mark (centre bulb lit gold) with the BRIGHT LIGHT / ELECTRICAL
+  wordmark (`assets/logo.svg`, favicon in `assets/favicon.svg`).
+- **Components:** trust bar under the hero, 4-up service cards (white, grey border,
+  gold hover), gold-ruled stats block, gold circular checklists, full-width gold CTA
+  band, charcoal footer with outline social icons.
+- **Imagery:** charcoal duotone placeholder scenes sit in every photo slot and are
+  swapped automatically for real photos dropped into `assets/img/` (see the manifest
+  there). Photography direction: clean, modern, warm; dusk exteriors with lights on.
+- **Motion:** restrained. 16px fade-up reveals (400ms, 60ms stagger), 1px button
+  lifts, one ambient glow pulse on the logo bulb; `prefers-reduced-motion` honoured.
 
 ## Features
 

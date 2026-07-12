@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <!-- Bright Light Electrical mark: bolt monogram -->
-  <rect x="2" y="2" width="60" height="60" rx="15" fill="#f7d31e"/>
-  <path d="M35.5 10 L20 35 h9 L26.5 54 L44 27 h-9.5 L38 10 Z" fill="#0d1830"/>
+  <!-- Bright Light Electrical: three-bulb mark, centre bulb lit -->
+  <circle cx="32" cy="26" r="17" fill="#F5B327" opacity="0.22"/>
+  <circle cx="13" cy="28" r="7" stroke="#FAFAFB" stroke-width="1.75"/>
+  <path d="M10.5 34.5 h5 M11 38 h4" stroke="#FAFAFB" stroke-width="1.75" stroke-linecap="round"/>
+  <circle cx="51" cy="28" r="7" stroke="#FAFAFB" stroke-width="1.75"/>
+  <path d="M48.5 34.5 h5 M49 38 h4" stroke="#FAFAFB" stroke-width="1.75" stroke-linecap="round"/>
+  <circle cx="32" cy="26" r="11" fill="#F5B327"/>
+  <path d="M32 20 l-3.5 7 h3 l-2 6 6.5-8 h-3 l2-5 Z" fill="#1F2329"/>
+  <path d="M27 40 h10 M28 44 h8 M30 48 h4" stroke="#F5B327" stroke-width="2" stroke-linecap="round"/>
 </svg>
