@@ -11,7 +11,7 @@ Built as a fast, dependency-free static site — no build step, no framework. Ju
 
 | Page | File | Purpose |
 |---|---|---|
-| Home | `index.html` | Hero with 24/7 call CTA, trust badges, top services, reviews, areas |
+| Home | `index.html` | Full-bleed hero with 24/7 call CTA, stats, feature tiles, work showcase, reviews |
 | Services | `services.html` | Full service catalogue (DB boards, solar, faults, wiring, geysers…) |
 | Emergency Call-Out | `emergency.html` | High-intent 24/7 emergency page with FAQ |
 | COC Certificates | `coc.html` | Certificate of Compliance — process, uses, FAQ |
@@ -22,28 +22,40 @@ Built as a fast, dependency-free static site — no build step, no framework. Ju
 
 ## Design system
 
-Per the brand direction:
+Photo-led, deep-navy direction:
 
-- **Colours:** charcoal `#1c1f24`, electric yellow-gold `#ffc021` (single accent),
-  off-white `#f7f7f5`, live green `#2fb457` for "available now" / compliance ticks.
-- **Type:** Space Grotesk for headings, Inter for body (Google Fonts, with system fallbacks).
-- **Logo:** bolt-through-letterform mark in `assets/logo.svg` — works in single colour for
-  stamps and vehicle magnets. Also used as the favicon (`assets/favicon.svg`).
-- **Imagery:** custom inline SVG illustrations (neat DB board, night-time call-out scene)
-  — zero image downloads, crisp at any resolution. Swap in real photos of neat wiring,
-  solar installs and branded PPE when available; neatness is the sell.
+- **Colours:** deep navy `#0d1830` / `#0a1425` grounds, card navy `#122142`/`#16294a`,
+  lemon gold `#f7d31e` as the single accent, cool blue-grey text `#a8b3c7` on navy,
+  blue-tinted light ground `#f4f6f9`, live green `#37c46d` for the "available now" pulse.
+- **Type:** Manrope (600–800) for headings and UI, Inter for body (Google Fonts, with
+  system fallbacks). Two-tone headlines: white/navy first line, gold second line.
+- **Logo:** bolt monogram in `assets/logo.svg` + uppercase BRIGHT**LIGHT** wordmark
+  (LIGHT in gold). Also the favicon (`assets/favicon.svg`).
+- **Imagery:** cinematic duotone SVG scenes (electrician at a glowing panel, DB board
+  close-up, solar array at dusk, night call-out, tools, COC certificate) sit in every
+  photo slot. They're deliberate art direction *and* drop-in replaceable: swap any
+  scene block for a real `<img>` of the business's neat wiring, solar installs and
+  branded PPE when photos are available.
+
+## Signature layout patterns
+
+- Full-bleed dark heroes with layered navy overlays and big two-tone headlines
+- Yellow-ringed "Call us 24/7" phone cluster in the header and heroes
+- 4-up navy feature tiles with gold line icons
+- Layered about block: main scene + inset scene + floating gold badge (24/7 / 4.6★)
+- Project cards with navy gradient overlays and gold titles
+- Animated hero stat counters, scroll reveals, pulsing availability dot —
+  all respecting `prefers-reduced-motion`
 
 ## Features
 
-- Fully responsive (mobile nav, fluid grids, fluid type).
-- Scroll-reveal animations, animated stat counters, floating hero art, pulsing
-  "available now" indicator — all respecting `prefers-reduced-motion`.
+- Fully responsive (mobile nav, fluid grids, fluid type)
 - Click-to-call buttons (`tel:+27825101840`) and WhatsApp deep links throughout,
-  plus a floating WhatsApp button on every page.
+  plus a floating WhatsApp button on every page
 - **Enquiry form** (contact page) opens WhatsApp with the enquiry pre-filled — no
-  backend needed, messages land straight on the business's 24/7 WhatsApp line.
-- Embedded Google Map of the business location.
-- SEO: unique titles/descriptions per page, semantic HTML, local-intent copy.
+  backend needed, messages land straight on the business's 24/7 WhatsApp line
+- Embedded Google Map of the business location
+- SEO: unique titles/descriptions per page, semantic HTML, local-intent copy
 
 ## Switching the form to email
 
@@ -63,3 +75,8 @@ and remove the `submit` handler in `js/main.js`.
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
+
+## Regenerating pages
+
+Pages share a common shell (header/footer/scenes). The generator script used during
+development lives in the session scratchpad; the checked-in HTML is the source of truth.

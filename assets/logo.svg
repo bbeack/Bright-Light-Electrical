@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <!-- Bright Light Electrical mark: bolt-through-B monogram -->
-  <rect x="2" y="2" width="60" height="60" rx="16" fill="#ffc021"/>
-  <path d="M35.5 10 L20 35 h9 L26.5 54 L44 27 h-9.5 L38 10 Z" fill="#1c1f24"/>
+  <!-- Bright Light Electrical mark: bolt monogram -->
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#f7d31e"/>
+  <path d="M35.5 10 L20 35 h9 L26.5 54 L44 27 h-9.5 L38 10 Z" fill="#0d1830"/>
 </svg>

@@ -4,33 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us | Bright Light Electrical — Owner-Run Helderberg Electricians</title>
-  <meta name="description" content="Owner-run electrical business in Somerset West / Strand, rated 4.6★ on Google. Same-day service, tidy workmanship and certified compliance since day one.">
+  <meta name="description" content="Owner-run electrical business in Somerset West / Strand, rated 4.6 stars on Google. Same-day service, tidy workmanship and certified compliance since day one.">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <div class="topbar">
-    <div class="container">
-      <span class="topbar__status"><span class="pulse-dot"></span>&nbsp;Available now — open 24/7</span>
-      <span class="topbar__hours">Somerset West · Strand · Gordon's Bay · Helderberg</span>
-      <a href="tel:+27825101840">+27 82 510 1840</a>
-    </div>
-  </div>
 
   <header class="header">
     <nav class="nav container" aria-label="Main navigation">
       <a class="brand" href="index.html">
         <svg class="brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
-          <rect x="2" y="2" width="60" height="60" rx="16" fill="#ffc021"/>
-          <path d="M35.5 10 L20 35 h9 L26.5 54 L44 27 h-9.5 L38 10 Z" fill="#1c1f24"/>
+          <rect x="2" y="2" width="60" height="60" rx="15" fill="#f7d31e"/>
+          <path d="M35.5 10 L20 35 h9 L26.5 54 L44 27 h-9.5 L38 10 Z" fill="#0d1830"/>
         </svg>
         <span class="brand__text">
-          <span class="brand__name">Bright Light Electrical</span>
-          <span class="brand__tag">24/7 Electricians</span>
+          <span class="brand__name">Bright<span class="lit">Light</span></span>
+          <span class="brand__tag">Professional Electrical Services</span>
         </span>
       </a>
       <ul class="nav__links" id="nav-links">
@@ -44,7 +36,10 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <div class="nav__cta">
-        <a class="btn btn--gold btn--sm" href="contact.html">Get a Quote</a>
+        <a class="call-cluster" href="tel:+27825101840">
+          <span class="call-cluster__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          <span><small>Call us — 24/7</small><strong>082 510 1840</strong></span>
+        </a>
         <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
           <span></span><span></span><span></span>
         </button>
@@ -53,58 +48,161 @@
   </header>
 
   <section class="page-hero">
-    <div class="container">
+    <div class="hero__scene" aria-hidden="true"><svg viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Electrician working at a panel, duotone artwork">
+    <defs><linearGradient id="ph-worker-bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#122142"/><stop offset="1" stop-color="#0a1425"/>
+    </linearGradient>
+    <radialGradient id="ph-worker-glow" cx="0.7" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#f7d31e" stop-opacity="0.16"/><stop offset="1" stop-color="#f7d31e" stop-opacity="0"/>
+    </radialGradient><filter id="ph-worker-grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.045 0"/><feComposite operator="over" in2="SourceGraphic"/></filter>
+      <linearGradient id="ph-worker-rim" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#f7d31e" stop-opacity="0"/><stop offset="1" stop-color="#f7d31e" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <rect width="1600" height="700" fill="url(#ph-worker-bg)"/>
+    <rect width="1600" height="700" fill="url(#ph-worker-glow)"/>
+    <circle cx="660" cy="130" r="90" fill="#f7d31e" opacity="0.05"/>
+    <circle cx="580" cy="90" r="34" fill="#f7d31e" opacity="0.08"/>
+    <!-- glowing panel -->
+    <rect x="470" y="150" width="250" height="330" rx="14" fill="#101f3d" stroke="#2c3f6b" stroke-width="2"/>
+    <g class="bolt-flicker">
+      <rect x="495" y="180" width="200" height="10" rx="5" fill="#f7d31e" opacity="0.55"/>
+      <rect x="495" y="210" width="150" height="10" rx="5" fill="#2c3f6b"/>
+      <rect x="495" y="240" width="180" height="10" rx="5" fill="#37c46d" opacity="0.5"/>
+      <rect x="495" y="270" width="130" height="10" rx="5" fill="#2c3f6b"/>
+      <rect x="495" y="300" width="190" height="10" rx="5" fill="#f7d31e" opacity="0.35"/>
+    </g>
+    <!-- silhouette: head, torso, reaching arm -->
+    <g fill="#0b1526">
+      <circle cx="300" cy="180" r="58"/>
+      <path d="M180 600 C 185 420 220 300 300 262 c 60 -8 110 10 150 44 l 60 -40 c 14 -10 34 6 24 22 l -70 88 c -40 34 -90 40 -140 30 C 260 480 250 560 248 600 Z"/>
+      <path d="M262 148 a58 58 0 0 1 96 -12 l -18 40 a40 40 0 0 0 -60 6 Z" fill="#101f3d"/>
+    </g>
+    <path d="M358 176 a58 58 0 0 0 -20 -44" stroke="url(#ph-worker-rim)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M450 306 l 58 -38" stroke="#f7d31e" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <rect width="1600" height="700" filter="url(#ph-worker-grain)" fill="transparent"/>
+  </svg></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="page-hero__inner container">
       <p class="breadcrumb"><a href="index.html">Home</a> / About</p>
-      <span class="eyebrow">About</span>
-      <h1>Competence you can verify.</h1>
+      <h1>Competence <span class="tint">you can verify.</span></h1>
       <p>Bright Light Electrical is a local, owner-run electrical business serving the Helderberg. No call centres, no subcontracted strangers — the person who answers your call is accountable for the work.</p>
-      <div class="page-hero__actions"><a class="btn btn--gold" href="tel:+27825101840"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Speak to us directly</a></div>
+      <div class="page-hero__actions"><a class="btn btn--yellow btn--lg" href="tel:+27825101840"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Speak to us directly</a></div>
     </div>
   </section>
   <section class="section">
     <div class="container">
       <div class="split">
-        <div class="reveal">
-          <span class="eyebrow">Our story</span>
-          <h2 class="section-title">Built on same-day service and tidy workmanship.</h2>
-          <p style="color:var(--muted); margin-bottom:18px;">Bright Light Electrical was built around a simple observation: most electrical companies are either fast or thorough, rarely both. We set out to be the electrician who arrives the same day <em>and</em> leaves behind a board so neat you'd photograph it.</p>
-          <p style="color:var(--muted); margin-bottom:18px;">Operating from Somerset West / Strand, we serve homes and small businesses across the Helderberg — around the clock, every day of the year. Our customers rate us 4.6 out of 5 on Google, and the reviews consistently mention two things: speed, and work done properly the first time.</p>
-          <p style="color:var(--muted);">We're also honest about where we've had to improve: keeping customers updated between the call and the arrival. That's why we now confirm ETAs upfront, quote before work starts, and follow up after every job — commitments you'll find in writing across this site.</p>
+        <div class="layered reveal">
+          <div class="layered__main"><svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Electrician working at a panel, duotone artwork">
+    <defs><linearGradient id="ab-main-bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#122142"/><stop offset="1" stop-color="#0a1425"/>
+    </linearGradient>
+    <radialGradient id="ab-main-glow" cx="0.7" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#f7d31e" stop-opacity="0.16"/><stop offset="1" stop-color="#f7d31e" stop-opacity="0"/>
+    </radialGradient><filter id="ab-main-grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.045 0"/><feComposite operator="over" in2="SourceGraphic"/></filter>
+      <linearGradient id="ab-main-rim" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#f7d31e" stop-opacity="0"/><stop offset="1" stop-color="#f7d31e" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <rect width="800" height="600" fill="url(#ab-main-bg)"/>
+    <rect width="800" height="600" fill="url(#ab-main-glow)"/>
+    <circle cx="660" cy="130" r="90" fill="#f7d31e" opacity="0.05"/>
+    <circle cx="580" cy="90" r="34" fill="#f7d31e" opacity="0.08"/>
+    <!-- glowing panel -->
+    <rect x="470" y="150" width="250" height="330" rx="14" fill="#101f3d" stroke="#2c3f6b" stroke-width="2"/>
+    <g class="bolt-flicker">
+      <rect x="495" y="180" width="200" height="10" rx="5" fill="#f7d31e" opacity="0.55"/>
+      <rect x="495" y="210" width="150" height="10" rx="5" fill="#2c3f6b"/>
+      <rect x="495" y="240" width="180" height="10" rx="5" fill="#37c46d" opacity="0.5"/>
+      <rect x="495" y="270" width="130" height="10" rx="5" fill="#2c3f6b"/>
+      <rect x="495" y="300" width="190" height="10" rx="5" fill="#f7d31e" opacity="0.35"/>
+    </g>
+    <!-- silhouette: head, torso, reaching arm -->
+    <g fill="#0b1526">
+      <circle cx="300" cy="180" r="58"/>
+      <path d="M180 600 C 185 420 220 300 300 262 c 60 -8 110 10 150 44 l 60 -40 c 14 -10 34 6 24 22 l -70 88 c -40 34 -90 40 -140 30 C 260 480 250 560 248 600 Z"/>
+      <path d="M262 148 a58 58 0 0 1 96 -12 l -18 40 a40 40 0 0 0 -60 6 Z" fill="#101f3d"/>
+    </g>
+    <path d="M358 176 a58 58 0 0 0 -20 -44" stroke="url(#ab-main-rim)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M450 306 l 58 -38" stroke="#f7d31e" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <rect width="800" height="600" filter="url(#ab-main-grain)" fill="transparent"/>
+  </svg></div>
+          <div class="layered__inset"><svg viewBox="0 0 480 360" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Neatly wired distribution board, duotone artwork">
+    <defs><linearGradient id="ab-inset-bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#122142"/><stop offset="1" stop-color="#0a1425"/>
+    </linearGradient>
+    <radialGradient id="ab-inset-glow" cx="0.7" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#f7d31e" stop-opacity="0.16"/><stop offset="1" stop-color="#f7d31e" stop-opacity="0"/>
+    </radialGradient><filter id="ab-inset-grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.045 0"/><feComposite operator="over" in2="SourceGraphic"/></filter></defs>
+    <rect width="480" height="360" fill="url(#ab-inset-bg)"/>
+    <rect width="480" height="360" fill="url(#ab-inset-glow)"/>
+    <rect x="80" y="100" width="640" height="420" rx="18" fill="#0f1c38" stroke="#22375f" stroke-width="2"/>
+    <rect x="120" y="150" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="136" y="164" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="136" y="198" width="32" height="30" rx="4" fill="#0d1830"/><rect x="220" y="150" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="236" y="164" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="236" y="198" width="32" height="30" rx="4" fill="#0d1830"/><rect x="320" y="150" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="336" y="164" width="32" height="22" rx="4" fill="#f7d31e" opacity="0.9"/><rect x="336" y="198" width="32" height="30" rx="4" fill="#0d1830"/><rect x="420" y="150" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="436" y="164" width="32" height="22" rx="4" fill="#2c3f6b" opacity="0.9"/><rect x="436" y="198" width="32" height="30" rx="4" fill="#0d1830"/><rect x="520" y="150" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="536" y="164" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="536" y="198" width="32" height="30" rx="4" fill="#0d1830"/><rect x="620" y="150" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="636" y="164" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="636" y="198" width="32" height="30" rx="4" fill="#0d1830"/><rect x="120" y="280" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="136" y="294" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="136" y="328" width="32" height="30" rx="4" fill="#0d1830"/><rect x="220" y="280" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="236" y="294" width="32" height="22" rx="4" fill="#f7d31e" opacity="0.9"/><rect x="236" y="328" width="32" height="30" rx="4" fill="#0d1830"/><rect x="320" y="280" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="336" y="294" width="32" height="22" rx="4" fill="#2c3f6b" opacity="0.9"/><rect x="336" y="328" width="32" height="30" rx="4" fill="#0d1830"/><rect x="420" y="280" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="436" y="294" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="436" y="328" width="32" height="30" rx="4" fill="#0d1830"/><rect x="520" y="280" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="536" y="294" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="536" y="328" width="32" height="30" rx="4" fill="#0d1830"/><rect x="620" y="280" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="636" y="294" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="636" y="328" width="32" height="30" rx="4" fill="#0d1830"/><rect x="120" y="410" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="136" y="424" width="32" height="22" rx="4" fill="#f7d31e" opacity="0.9"/><rect x="136" y="458" width="32" height="30" rx="4" fill="#0d1830"/><rect x="220" y="410" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="236" y="424" width="32" height="22" rx="4" fill="#2c3f6b" opacity="0.9"/><rect x="236" y="458" width="32" height="30" rx="4" fill="#0d1830"/><rect x="320" y="410" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="336" y="424" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="336" y="458" width="32" height="30" rx="4" fill="#0d1830"/><rect x="420" y="410" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="436" y="424" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="436" y="458" width="32" height="30" rx="4" fill="#0d1830"/><rect x="520" y="410" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="536" y="424" width="32" height="22" rx="4" fill="#37c46d" opacity="0.9"/><rect x="536" y="458" width="32" height="30" rx="4" fill="#0d1830"/><rect x="620" y="410" width="64" height="92" rx="7" fill="#16294a" stroke="#22375f" stroke-width="2"/><rect x="636" y="424" width="32" height="22" rx="4" fill="#f7d31e" opacity="0.9"/><rect x="636" y="458" width="32" height="30" rx="4" fill="#0d1830"/>
+    <g stroke-width="5" fill="none" stroke-linecap="round" opacity="0.75">
+      <path d="M120 560 q 180 -40 300 0 t 300 -20" stroke="#f7d31e"/>
+      <path d="M100 585 q 220 -50 360 -6 t 260 -18" stroke="#2c3f6b"/>
+      <path d="M140 540 q 160 -30 280 8 t 300 -30" stroke="#1e3560"/>
+    </g>
+    <circle cx="640" cy="80" r="46" fill="#f7d31e" opacity="0.07"/>
+    <circle cx="712" cy="150" r="24" fill="#f7d31e" opacity="0.1"/>
+    <rect width="480" height="360" filter="url(#ab-inset-grain)" fill="transparent"/>
+  </svg></div>
+          <div class="layered__badge float"><strong>4.6&#9733;</strong><span>on Google</span></div>
         </div>
         <div class="reveal reveal-delay-1">
-          <div class="grid" style="gap:16px;">
-            <div class="info-tile">
-              <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span>
-              <div><strong>Certified &amp; compliant</strong><p>Work performed and signed off to SANS 10142 standards, with COCs issued where required.</p></div>
-            </div>
-            <div class="info-tile">
-              <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
-              <div><strong>Genuinely 24/7</strong><p>The same number is answered at midnight as at midday — 365 days a year.</p></div>
-            </div>
-            <div class="info-tile">
-              <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.26 6.6 1.01-4.75 4.63 1.12 6.54L12 17.35l-5.87 3.09 1.12-6.54L2.5 9.27l6.6-1.01L12 2z"/></svg></span>
-              <div><strong>4.6★ on Google</strong><p>Rated by real customers in Somerset West, Strand and Gordon's Bay.</p></div>
-            </div>
-            <div class="info-tile">
-              <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-              <div><strong>Local &amp; accountable</strong><p>Owner-run and based in the Helderberg — your neighbours are our references.</p></div>
-            </div>
-          </div>
+          <span class="eyebrow"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Our story</span>
+          <h2 class="section-title">Built on same-day service <span class="tint">and tidy workmanship.</span></h2>
+          <p style="color:var(--slate); margin-bottom:18px;">Bright Light Electrical was built around a simple observation: most electrical companies are either fast or thorough, rarely both. We set out to be the electrician who arrives the same day <em>and</em> leaves behind a board so neat you'd photograph it.</p>
+          <p style="color:var(--slate); margin-bottom:18px;">Operating from Somerset West / Strand, we serve homes and small businesses across the Helderberg — around the clock, every day of the year. Our customers rate us 4.6 out of 5 on Google, and the reviews consistently mention two things: speed, and work done properly the first time.</p>
+          <p style="color:var(--slate);">We're also honest about where we've had to improve: keeping customers updated between the call and the arrival. That's why we now confirm ETAs upfront, quote before work starts, and follow up after every job — commitments you'll find in writing across this site.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section section--dark">
+  <section class="section section--paper">
     <div class="container">
-      <div class="reveal" style="text-align:center; max-width:680px; margin-inline:auto;">
-        <span class="eyebrow" style="justify-content:center;">Our commitments</span>
-        <h2 class="section-title">What you can hold us to.</h2>
+      <div class="grid grid--4">
+        <div class="info-tile reveal">
+          <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span>
+          <div><strong>Certified &amp; compliant</strong><p>Work signed off to SANS 10142, with COCs issued where required.</p></div>
+        </div>
+        <div class="info-tile reveal reveal-delay-1">
+          <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+          <div><strong>Genuinely 24/7</strong><p>The same number is answered at midnight as at midday — 365 days a year.</p></div>
+        </div>
+        <div class="info-tile reveal reveal-delay-2">
+          <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.26 6.6 1.01-4.75 4.63 1.12 6.54L12 17.35l-5.87 3.09 1.12-6.54L2.5 9.27l6.6-1.01L12 2z"/></svg></span>
+          <div><strong>4.6&#9733; on Google</strong><p>Rated by real customers in Somerset West, Strand and Gordon's Bay.</p></div>
+        </div>
+        <div class="info-tile reveal reveal-delay-3">
+          <span class="info-tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <div><strong>Local &amp; accountable</strong><p>Owner-run and based in the Helderberg — your neighbours are our references.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--navy">
+    <div class="container">
+      <div class="reveal" style="max-width:680px;">
+        <span class="eyebrow"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Our commitments</span>
+        <h2 class="section-title">What you can <span class="tint">hold us to.</span></h2>
       </div>
       <div class="grid grid--3" style="margin-top:44px;">
-        <div class="card card--dark reveal"><h3>Answer &amp; arrive</h3><p>Calls answered around the clock, with an honest arrival window confirmed before we dispatch — and a call-back if anything changes.</p></div>
-        <div class="card card--dark reveal reveal-delay-1"><h3>Quote before work</h3><p>You approve a clear quote before any chargeable work begins. No invoice surprises, no "while we were there" extras.</p></div>
-        <div class="card card--dark reveal reveal-delay-2"><h3>Finish properly</h3><p>Tested in front of you, labelled, cleaned up and certified where required. If something's not right afterwards, we come back.</p></div>
+        <div class="feature-tile reveal" style="text-align:left;">
+          <h3>Answer &amp; arrive</h3>
+          <p>Calls answered around the clock, with an honest arrival window confirmed before we dispatch — and a call-back if anything changes.</p>
+        </div>
+        <div class="feature-tile reveal reveal-delay-1" style="text-align:left;">
+          <h3>Quote before work</h3>
+          <p>You approve a clear quote before any chargeable work begins. No invoice surprises, no "while we were there" extras.</p>
+        </div>
+        <div class="feature-tile reveal reveal-delay-2" style="text-align:left;">
+          <h3>Finish properly</h3>
+          <p>Tested in front of you, labelled, cleaned up and certified where required. If something's not right afterwards, we come back.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -112,13 +210,47 @@
   <section class="section">
     <div class="container">
       <div class="cta-band reveal">
+        <div class="cta-band__scene" aria-hidden="true"><svg viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Electrician working at a panel, duotone artwork">
+    <defs><linearGradient id="ctab-bg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#122142"/><stop offset="1" stop-color="#0a1425"/>
+    </linearGradient>
+    <radialGradient id="ctab-glow" cx="0.7" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#f7d31e" stop-opacity="0.16"/><stop offset="1" stop-color="#f7d31e" stop-opacity="0"/>
+    </radialGradient><filter id="ctab-grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.045 0"/><feComposite operator="over" in2="SourceGraphic"/></filter>
+      <linearGradient id="ctab-rim" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#f7d31e" stop-opacity="0"/><stop offset="1" stop-color="#f7d31e" stop-opacity="0.85"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="420" fill="url(#ctab-bg)"/>
+    <rect width="1200" height="420" fill="url(#ctab-glow)"/>
+    <circle cx="660" cy="130" r="90" fill="#f7d31e" opacity="0.05"/>
+    <circle cx="580" cy="90" r="34" fill="#f7d31e" opacity="0.08"/>
+    <!-- glowing panel -->
+    <rect x="470" y="150" width="250" height="330" rx="14" fill="#101f3d" stroke="#2c3f6b" stroke-width="2"/>
+    <g class="bolt-flicker">
+      <rect x="495" y="180" width="200" height="10" rx="5" fill="#f7d31e" opacity="0.55"/>
+      <rect x="495" y="210" width="150" height="10" rx="5" fill="#2c3f6b"/>
+      <rect x="495" y="240" width="180" height="10" rx="5" fill="#37c46d" opacity="0.5"/>
+      <rect x="495" y="270" width="130" height="10" rx="5" fill="#2c3f6b"/>
+      <rect x="495" y="300" width="190" height="10" rx="5" fill="#f7d31e" opacity="0.35"/>
+    </g>
+    <!-- silhouette: head, torso, reaching arm -->
+    <g fill="#0b1526">
+      <circle cx="300" cy="180" r="58"/>
+      <path d="M180 600 C 185 420 220 300 300 262 c 60 -8 110 10 150 44 l 60 -40 c 14 -10 34 6 24 22 l -70 88 c -40 34 -90 40 -140 30 C 260 480 250 560 248 600 Z"/>
+      <path d="M262 148 a58 58 0 0 1 96 -12 l -18 40 a40 40 0 0 0 -60 6 Z" fill="#101f3d"/>
+    </g>
+    <path d="M358 176 a58 58 0 0 0 -20 -44" stroke="url(#ctab-rim)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M450 306 l 58 -38" stroke="#f7d31e" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <rect width="1200" height="420" filter="url(#ctab-grain)" fill="transparent"/>
+  </svg></div>
         <div>
-          <h2>Ready when you are — 24/7.</h2>
+          <h2>Need an electrician? <span class="tint">We answer 24/7.</span></h2>
           <p>Call for same-day service or send us the details and we'll come back with a quote.</p>
         </div>
-        <div style="display:flex; gap:14px; flex-wrap:wrap; position:relative;">
-          <a class="btn btn--dark btn--lg" href="tel:+27825101840">Call 082 510 1840</a>
-          <a class="btn btn--dark btn--lg" style="background:#25d366;" href="https://wa.me/27825101840" target="_blank" rel="noopener">WhatsApp us</a>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a class="btn btn--yellow btn--lg" href="tel:+27825101840">Call 082 510 1840</a>
+          <a class="btn btn--whatsapp btn--lg" href="https://wa.me/27825101840" target="_blank" rel="noopener">WhatsApp us</a>
         </div>
       </div>
     </div>
@@ -130,12 +262,12 @@
         <div class="footer__about">
           <a class="brand" href="index.html">
             <svg class="brand__mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
-          <rect x="2" y="2" width="60" height="60" rx="16" fill="#ffc021"/>
-          <path d="M35.5 10 L20 35 h9 L26.5 54 L44 27 h-9.5 L38 10 Z" fill="#1c1f24"/>
+          <rect x="2" y="2" width="60" height="60" rx="15" fill="#f7d31e"/>
+          <path d="M35.5 10 L20 35 h9 L26.5 54 L44 27 h-9.5 L38 10 Z" fill="#0d1830"/>
         </svg>
             <span class="brand__text">
-              <span class="brand__name">Bright Light Electrical</span>
-              <span class="brand__tag">24/7 Electricians</span>
+              <span class="brand__name">Bright<span class="lit">Light</span></span>
+              <span class="brand__tag">Professional Electrical Services</span>
             </span>
           </a>
           <p>Certified, same-day electrical and solar work across Somerset West, Strand and the Helderberg — available around the clock.</p>
@@ -165,13 +297,13 @@
             <li><a href="tel:+27825101840">+27 82 510 1840</a></li>
             <li><a href="https://wa.me/27825101840" target="_blank" rel="noopener">WhatsApp us</a></li>
             <li>134 Koyini Street, Somerset West / Strand, Cape Town, 7140</li>
-            <li><span class="green">● Open 24 hours, 7 days a week</span></li>
+            <li><span class="pulse-dot"></span>&nbsp;Open 24 hours, 7 days a week</li>
           </ul>
         </div>
       </div>
       <div class="footer__bottom">
         <span>© <span id="year">2026</span> Bright Light Electrical. All rights reserved.</span>
-        <span class="green">24/7 emergency line: 082 510 1840</span>
+        <span class="lit">24/7 emergency line: 082 510 1840</span>
       </div>
     </div>
   </footer>
