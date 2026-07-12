@@ -1,4 +1,4 @@
-/* Bright Light Electrical — site interactions */
+/* Bright Light Electrical site interactions */
 (function () {
   "use strict";
 
@@ -113,6 +113,21 @@
       form.reset();
     });
   }
+
+  /* ----- Photo slots: swap in real photos when the files exist ----- */
+  document.querySelectorAll("[data-photo]").forEach(function (slot) {
+    var src = slot.getAttribute("data-photo");
+    if (!src) return;
+    var probe = new Image();
+    probe.onload = function () {
+      var img = document.createElement("img");
+      img.src = src;
+      img.alt = slot.getAttribute("data-photo-alt") || "";
+      img.className = "photo-fill";
+      slot.appendChild(img);
+    };
+    probe.src = src;
+  });
 
   /* ----- Footer year ----- */
   var yearEl = document.getElementById("year");
