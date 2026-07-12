@@ -916,6 +916,10 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Photo slots ---------- */
 [data-photo] { position: relative; }
+/* slots that are absolutely-positioned backgrounds must stay absolute */
+.hero__scene[data-photo],
+.project-card__media[data-photo],
+.cta-band__scene[data-photo] { position: absolute; }
 .photo-fill {
   position: absolute;
   inset: 0;
